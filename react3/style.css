@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+main {
+  width: 100%;
+  background-color: #D3D3D3;
+}
+main .container {
+  width: 100%;
+  height: 100%;
+  padding: 2rem;
+}
+main .container .navBar {
+  width: 100%;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+}
+main .container .navBar .navBarLeft {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3rem;
+  margin-left: 8rem;
+}
+main .container .navBar .navBarLeft h3 {
+  font-size: 1rem;
+  color: rgb(63, 63, 63);
+}
+main .container .navBar .navBarRight {
+  display: flex;
+  align-items: center;
+}
+main .container .navBar .navBarRight h3 {
+  font-size: 1rem;
+  color: rgb(63, 63, 63);
+}
+main .container .increment {
+  width: 20rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 8rem;
+  margin-left: 8rem;
+}
+main .container .increment .incrementLeft h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(38, 37, 37);
+}
+main .container .increment .incrementLeft h4 {
+  font-size: 1rem;
+  color: rgb(88, 87, 87);
+}
+main .container .increment .incrementRight h2 {
+  font-size: 3rem;
+  font-weight: 200;
+  color: rgb(38, 37, 37);
+}
+main .container .increment .incrementRight h4 {
+  font-size: 1rem;
+  color: rgb(88, 87, 87);
+}
+main .container .helloimgDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -10rem;
+}
+main .container .helloimgDiv .helloDiv {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10rem;
+  justify-content: space-between;
+}
+main .container .helloimgDiv .helloDiv h1 {
+  font-size: 17rem;
+  font-weight: 200;
+  color: rgb(9, 9, 9);
+  font-family: Arial, Helvetica, sans-serif;
+}
+main .container .helloimgDiv .helloDiv h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: rgb(55, 54, 54);
+  margin-left: 1rem;
+  margin-top: -2.2rem;
+}
+main .container .helloimgDiv .imgDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .container .helloimgDiv .imgDiv img {
+  width: 40rem;
+  height: 50rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */

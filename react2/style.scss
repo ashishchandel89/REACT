@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    padding: 1rem;
+    h1{
+        color: wheat;
+        font-size: 2rem;
+    }
+     h2{
+        color: wheat;
+        font-size: 2rem;
+    }
+    #parent{
+        width: 8em;
+        height:8rem;
+        background-color: transparent;
+        border: 1px solid beige;
+    
+    #circle{
+        width: 3rem;
+        height: 3rem;
+        background-color: palevioletred;
+        border-radius: 50%;
+    }
+    #box{
+        width: 3rem;
+        height: 3rem;
+        background-color: beige;
+    }
+}
+}

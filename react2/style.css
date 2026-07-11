@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  padding: 1rem;
+}
+main h1 {
+  color: wheat;
+  font-size: 2rem;
+}
+main h2 {
+  color: wheat;
+  font-size: 2rem;
+}
+main #parent {
+  width: 8em;
+  height: 8rem;
+  background-color: transparent;
+  border: 1px solid beige;
+}
+main #parent #circle {
+  width: 3rem;
+  height: 3rem;
+  background-color: palevioletred;
+  border-radius: 50%;
+}
+main #parent #box {
+  width: 3rem;
+  height: 3rem;
+  background-color: beige;
+}/*# sourceMappingURL=style.css.map */
